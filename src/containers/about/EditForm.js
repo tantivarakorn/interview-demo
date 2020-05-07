@@ -37,7 +37,7 @@ class EditForm extends Component {
     return (
       <Layout className="layout">
         <Content>
-          <div className="container">
+          <div className="container edit">
             <form onSubmit={this.handleSubmit}>
               <h3>ชื่อหนังสือ</h3>
               <input required type="text" placeholder="ชื่อหนังสือ"
@@ -59,6 +59,10 @@ class EditForm extends Component {
                      ref={(input) => this.addDate = input}
                      defaultValue={this.props.book.date}
               />
+
+              <br/>
+              <br/>
+
               <button>บันทึก</button>
             </form>
           </div>

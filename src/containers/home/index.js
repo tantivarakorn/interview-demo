@@ -67,10 +67,12 @@ class Home extends Component {
               <h3>เนื้อหาโดยสรุปของหนังสือ</h3>
               <textarea required cols="30" rows="10" placeholder="เนื้อหาโดยสรุปของหนังสือ"
                         ref={(input) => this.addSummary = input}/>
-              <h3>วันเวลาที่อ่านจบ</h3>
+              <h3>วันที่อ่านจบ</h3>
               <input required type="date"
                      ref={(input) => this.addDate = input}/>
-              <button>Submit</button>
+              <br/>
+              <br/>
+                <button>บันทึก</button>
             </form>
           </div>
 

@@ -3,6 +3,7 @@ import { Layout } from 'antd'
 import BookList from './bookList'
 import EditForm from './EditForm'
 import { connect } from 'react-redux'
+import '../home/home.css'
 
 const { Content } = Layout
 
@@ -29,8 +30,8 @@ class About extends Component {
       <Layout className="layout">
         <Content>
           <h1 className="header">รายการหนังสือที่อ่านจบ</h1>
-          <div className="container">
-            {console.log(this.props.books.addBook)}
+
+          <div className="container-book">
             {this.props.books.addBook.map((book) => (
               <div key={book.id}>
                 {book.editing ?
@@ -51,5 +52,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-// export default About
 export default connect(mapStateToProps)(About)
