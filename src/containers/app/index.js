@@ -14,8 +14,8 @@ const App = () => (
         defaultSelectedKeys={['1']}
         style={{ lineHeight: '64px' }}
       >
-        <Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>
-        <Menu.Item key="2"><Link to="/about-us">About Us</Link></Menu.Item>
+        <Menu.Item key="1"><Link to="/">บันทึกหนังสือ</Link></Menu.Item>
+        <Menu.Item key="2"><Link to="/about-us">รายชื่อหนังสือที่อ่านจบ</Link></Menu.Item>
       </Menu>
     </Header>
     <main>
