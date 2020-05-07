@@ -15,9 +15,71 @@
     width:1080px; 
     margin:0 auto;
     margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.edit {
+    width: 980px !important;
+}
+
+.container-book{
+    background: #fff;
+    padding: 30px;
+    min-height: 400px;
+    width:1080px;
+    margin:0 auto;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .img{
     width: 100%;
     margin: 20px 0; 
+}
+
+input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 35px;
+}
+
+textarea {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+button  {
+    background-color: green;
+    color: white !important;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 5px !important;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.book-list {
+    width: 50vw;
+    margin-bottom: 30px;
+}
+
+.edit-btn {
+    background-color: lightgoldenrodyellow;
+    color: lightslategray !important;
+    width: 25%;
+}
+
+.delete-btn {
+    background-color: lightcoral;
+    width: 25%;
 }
